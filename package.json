@@ -1,0 +1,14 @@
+{
+  "name": "server-podcastr",
+  "version": "1.0.0",
+  "description": "server for the podcastr application",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server server.json -w -d 750 -p 3333"
+  },
+  "author": "Augusto",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
