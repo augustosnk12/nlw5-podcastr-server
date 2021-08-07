@@ -4,7 +4,7 @@
   "description": "server for the podcastr application",
   "main": "index.js",
   "scripts": {
-    "start": "json-server server.json -w -d 750 -p 3333"
+    "start": "node app.js"
   },
   "author": "Augusto",
   "license": "ISC",
